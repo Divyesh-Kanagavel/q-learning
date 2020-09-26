@@ -6,7 +6,7 @@ env = gym.make("MountainCar-v0")
 LEARNING_RATE = 0.1
 
 DISCOUNT = 0.95
-EPISODES = 25000
+EPISODES = 10000 #feel that iterations can be reduced
 show_every = 1000
 EPSILON = 1
 START_EPSILON = 1
